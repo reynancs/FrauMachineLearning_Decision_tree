@@ -1,7 +1,7 @@
 # Detecção de Fraudes em Cartões de Crédito usando Árvores de Decisão
 
 ## :dart: Objetivo
-Desenvolver e aplicar conhecimentos de Machine Learning utilizando Árvores de Decisão em uma dataset com transações reais extraídos do Kaggle.
+Desenvolver e aplicar conhecimentos de Machine Learning obtido no curso de :  Árvores de Decisão - Aprofundando em Modelos de Machine Learning com a utilização de um dataset ccom transações de cartões de crédito genuínas extraídos do Kaggle.
 
 ## :bookmark: Contexto
 Pesquisa da Kaspersky apurou que a fraude com cartão de crédito é ainda grande no país. A pesquisa aponta que ***20% das pessoas  tiveram seu cartão de crédito utilizado sem autorização por terceiros***, número importante quando é levado em conta a quantidade de pessoas que utilizam este meio de pagamento.
@@ -21,7 +21,7 @@ Pesquisa da Kaspersky apurou que a fraude com cartão de crédito é ainda grand
 
 - `Class` - é a variável resposta e assume valor 1 para Fraudes e 0 para Não Fraude
 
-[Fonte dos Dados](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+![Fonte dos Dados](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 ## :computer: Conteúdo
 O Projeto foi organizados nos seguintes tópicos para uma melhor organização e compressão:
@@ -33,3 +33,12 @@ O Projeto foi organizados nos seguintes tópicos para uma melhor organização e
 6. Avaliando as Métricas ( Score, Precision e Recall Scores)
 7. Ajustando o Modelo com algoritmos (Decision Tree, Random Forest, Ada Boost)
 8. Conclusão
+
+## :closed_book: Conclusão
+No primeiro teste já foi identificado um Overfiting do modelo devido o modelo estar desbalanceado, com isso, afim de termos um modelo com resultados eficazes, foi considerado as Métricas de Precisão e Recall, afim de, avaliarmos com mais detalhes o modelo e reduzir os erros (Falsos Positivos e Falsos Negativos) já que estes são cruciais para este caso. 
+
+Foram utilizados 3 modelos, como: Decision Tree, Random Forest, Ada Booster com regularização de hiperparâmetros, onde após alguns testes o melhor resultado foi obtido com o ***Modelo Random Forest***:
+
+***Accurancy Score:  0.9995 | Precision Score:  0.9737 | Recall Score:  0.7551***
+
+De acordo com o Recall e a Matriz de Confusão, teremos 12 operações com cartão de crédito bloqueados como Fraudes (Falso Positivo), onde a operadora, em seguida poderá enviar um SMS ou popup no Aplicativo solicitando o reconhecimento da compra, liberando após a confirmação.
