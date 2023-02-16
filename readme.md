@@ -41,4 +41,4 @@ Foram utilizados 3 modelos, como: Decision Tree, Random Forest, Ada Booster com 
 
 ***Accurancy Score:  0.9995 | Precision Score:  0.9737 | Recall Score:  0.7551***
 
-De acordo com o Recall e a Matriz de Confusão, teremos 12 operações com cartão de crédito bloqueados como Fraudes (Falso Positivo), onde a operadora, em seguida poderá enviar um SMS ou popup no Aplicativo solicitando o reconhecimento da compra, liberando após a confirmação.
+De acordo com o Recall e a Matriz de Confusão, teremos 12 operações com cartão de crédito bloqueados como Fraudes (Falso Positivo), onde a operadora,em seguida poderá enviar um SMS ou popup no Aplicativo solicitando o reconhecimento da compra, liberando após a confirmação.
