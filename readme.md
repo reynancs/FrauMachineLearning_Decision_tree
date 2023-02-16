@@ -1,4 +1,7 @@
-# Detecção de Fraudes em Cartões de Crédito usando Árvores de Decisão
+# Detecção de Fraudes em Cartões de Crédito usando Classificação com Árvores de Decisão
+
+![RandomForest](https://user-images.githubusercontent.com/97552106/219500082-1f6382ad-3d68-4e48-bed5-2a53ea209e7e.png)
+
 
 ## :dart: Objetivo
 Desenvolver e aplicar conhecimentos de Machine Learning obtido no curso de :  Árvores de Decisão - Aprofundando em Modelos de Machine Learning com a utilização de um dataset ccom transações de cartões de crédito genuínas extraídos do Kaggle.
@@ -21,7 +24,7 @@ Pesquisa da Kaspersky apurou que a fraude com cartão de crédito é ainda grand
 
 - `Class` - é a variável resposta e assume valor 1 para Fraudes e 0 para Não Fraude
 
-![Fonte dos Dados](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+[Fonte dos Dados](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 ## :computer: Conteúdo
 O Projeto foi organizados nos seguintes tópicos para uma melhor organização e compressão:
